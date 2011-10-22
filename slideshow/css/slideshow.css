@@ -43,7 +43,7 @@ a {text-decoration: none;}
 
 @keyframes HomeGondola
 {
-	0%, 15% {left: 0px;}
+	0%, 15%, 100% {left: 0px;}
 	35%,50% {left: -640px;}
 	70%,85% {left: -1280px;}
 	100% {left: 0px;}
