@@ -1,0 +1,109 @@
+html {margin:0 auto;overflow-x:hidden;}
+h1,h2,p {margin:20px;}
+p {text-align: justify; line-height: 1.4em;}
+a {text-decoration: none;}
+#main {margin-bottom: 75px;}
+#zuperGondola {margin:0 auto;width:640px;height: 510px;position:relative;overflow:hidden;}
+#gondolaContents {
+	position:absolute; 
+	width:1920px;
+	top:0; 
+	left:0; 
+	text-align:center; 
+	margin:0; 
+	padding:0;
+	animation-name: HomeGondola;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	-moz-animation-name: HomeGondola;
+	-moz-animation-duration: 20s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: ease-in-out;
+	-webkit-animation-name: HomeGondola;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	-ms-animation-name: HomeGondola;
+	-ms-animation-duration: 20s;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: ease-in-out;
+	-o-animation-name: HomeGondola;
+	-o-animation-duration: 20s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-timing-function: ease-in-out;
+	-khtml-animation-name: HomeGondola;
+	-khtml-animation-duration: 20s;
+	-khtml-animation-iteration-count: infinite;
+	-kthml-animation-timing-function: ease-in-out;
+}
+
+.slide {float:left; margin:0 20px}
+.slide img {width:600px; height:400px;}
+
+@keyframes HomeGondola
+{
+	0%, 15% {left: 0px;}
+	35%,50% {left: -640px;}
+	70%,85% {left: -1280px;}
+	100% {left: 0px;}
+}
+
+@-moz-keyframes HomeGondola {
+	0%, 15% {left: 0px;}
+	35%,50% {left: -640px;}
+	70%,85% {left: -1280px;}
+	100% {left: 0px;}
+}
+
+@-webkit-keyframes HomeGondola {	
+	0%, 15% {left: 0px;}
+	35%,50% {left: -640px;}
+	70%,85% {left: -1280px;}
+	100% {left: 0px;}
+}
+@-ms-keyframes HomeGondola {
+	0%, 15% {left: 0px;}
+	35%,50% {left: -640px;}
+	70%,85% {left: -1280px;}
+	100% {left: 0px;}
+}
+
+@-o-keyframes HomeGondola {
+	0%, 15% {left: 0px;}
+	35%,50% {left: -640px;}
+	70%,85% {left: -1280px;}
+	100% {left: 0px;}
+}
+
+@-khtml-keyframes HomeGondola {
+	0%, 15% {left: 0px;}
+	35%,50% {left: -640px;}
+	70%,85% {left: -1280px;}
+	100% {left: 0px;}
+}
+
+#enlargeYourCssSupport {
+	position: absolute;
+	top:40%;
+	text-align: center;
+	color:white;
+	letter-spacing:0.1em;
+	text-decoration: blink;
+	font-weight: bold;
+	font-size:14pt;
+	text-stroke: 1px #FFF;
+	-moz-text-stroke: 1px #FFF;
+	-webkit-text-stroke: 1px #FFF;
+	-o-text-stroke: 1px #FFF;
+	-ms-text-stroke: 1px #FFF;
+	-khtml-text-stroke: 1px #FFF;
+	transform: rotate(30deg);
+	-moz-transform: rotate(29deg);
+	-webkit-transform: rotate(30deg);
+	-o-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-khtml-transform: rotate(30deg);
+}
+footer {position:fixed; bottom: 0; left: 0; width:100%; z-index: 2; background-color:#CCC; border-top:3px solid black;}
+footer p {font-weight: bold; font-variant: small-caps; font-size:11pt; text-align:center; margin:10px; padding:0; letter-spacing:0.4em;}
